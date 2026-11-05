@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+
+# Node & Frontend
+node_modules/
+.npm/
+*.log
+vite.log
+vite_err.log
+vite_out.log
+
+# CmdBuddy local data & SQLite
+*.db
+.cmdbuddy/
+state.json
+
+# Environment Secrets & Credentials
+.env
+.env.*
+*.key
+*.pem
+*.token
+credentials.json
+
+# Temporary & Test Artefacts
+tmp/
+tmp_test/
+test-vite-demo/
