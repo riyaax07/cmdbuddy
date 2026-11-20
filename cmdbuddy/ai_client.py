@@ -34,7 +34,7 @@ class GeminiClient:
     def __init__(
         self,
         api_key: Optional[str] = None,
-        model: str = "gemini-2.0-flash",
+        model: str = "gemini-3.8-flash",
         base_url: str = "https://generativelanguage.googleapis.com/v1beta",
         timeout: float = 30.0,
     ):
